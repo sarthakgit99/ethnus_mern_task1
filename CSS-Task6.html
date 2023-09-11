@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK 6</title>
+    <style>
+        .t6{/* margin-top: -250px; */
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+        }
+
+        label {
+            /* display: flex; */
+            font-family: sans-serif;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        input {
+            /* display: flex; */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 550px;
+            height: 35px;
+            font-size: 20px;
+        }
+
+        button {
+            width: 560px;
+            height: 37px;
+            background-color: rgb(45, 143, 45);
+            color: white;
+            font-size: 18px;
+            border: 1px solid whitesmoke;
+        }
+
+        #bt2 {
+            display: flex;
+            width: 80px;
+            background-color: red;
+            margin-top: 23px;
+            border: 1px solid rgb(205, 10, 10);
+            border-radius: 5px;
+        }
+
+        #chk {
+            margin-left: 289px;
+        }
+
+        .last {
+            display: flex;
+            width: 560px;
+            height: 65px;
+            background-color: rgb(217, 213, 213);
+            margin-left: 555px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        p{
+            display: flex;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        a{
+            display: flex;
+            font-size: 16px;
+            font-weight: 700;
+            margin-right: 5px;
+        }
+        #im{
+            display: flex;
+            width: 225px;
+            height: 195px;
+            margin-left:700px;
+            margin-top: 25px;
+            /* display: flex;
+            justify-content: center; */
+        }
+    </style>
+</head>
+
+<body>
+    <img id="im" src="id.png" alt="">
+    <div class="t6">
+        <form action="">
+            <label for="u">Username</label>
+            <br>
+            <input type="text" placeholder="Enter Username" id="u">
+            <br>
+            <br>
+            <br>
+            <label for="p">Password</label>
+            <br>
+            <input type="text" placeholder="Enter Password" id="p">
+            <br>
+            <br>
+            <center>
+                <div class="log">
+                    <button>Login</button>
+                </div>
+            </center>
+        </form>
+    </div>
+    <br>
+    <input style="height: 19px;" type="checkbox" id="chk">
+    <label style="margin-left: -265px; font-size:18px; font-weight: 300;" for="chk">Remember me</label>
+
+    <br>
+    <div class="last">
+        <div><button id="bt2">Cancel</button></div>
+        <div>
+            <span>
+                <p style="display: inline; margin-right: 5px;">Forgot</p>
+                <a href="" style="text-decoration: underline; color: black;">password?</a>
+            </span>
+        </div>
+        
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            display: inline;
+        }
+        button{
+            margin-left: 200px;
+            align-items: center;
+            justify-content: center;
+        }
+        body{
+            margin-left: 300px;
+            align-items: center;
+            justify-content: center;
+        }
+        #b1 {
+            padding: 6px 10px;
+            font-size: 14px;
+        }
+        #t5{
+            text-align: right;
+        }
+        h2{
+            margin-left: 200px;
+            color: blue;
+            font-weight: bold;
+        }
+        label{
+            font-size: larger;
+            font-weight: bold;
+        }
+        
+        .full-width-input {
+            width: 98%;
+        }
+        table{
+            border-collapse:collapse;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration form</h2>
+    <table border="1">
+        <tr>
+            <td><label for="fn">First Name</label></td>
+            <td><input type="text" name="" id="fn" class="full-width-input"></td>
+        </tr>
+        <tr>
+            <td><label for="ln">Last Name</label></td>
+            <td><input type="text" name="" id="ln" class="full-width-input"></td>
+        </tr>
+        <tr>
+            <td><label for="em">Email</label></td>
+            <td><input type="text" name="" id="em" class="full-width-input"></td>
+        </tr>
+        <tr>
+            <td><label for="pw">Password</label></td>
+            <td><input type="password" name="" id="pwd" class="full-width-input"></td>
+        </tr>
+        <tr>
+            <td><label for="rpw">Re-enter Password</label></td>
+            <td><input type="password" name="" id="rpwd" class="full-width-input"></td>
+        </tr>
+        <tr>
+            <td rowspan="2"><label for="gen">Gender: </label></td>
+            <td><input type="radio" name="gender">Male</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="gender">Female</td>
+        </tr>
+        <tr>
+            <td><label for="ag1">Age</label></td>
+            <td><input type="text" id="ag1" class="full-width-input"></td>
+        </tr>
+        <tr>
+            <td><label for="p1">Phone Number</label></td>
+            <td><input type="text" id="p1" class="full-width-input"></td>
+        </tr>
+        <tr>
+            <td><label for="ad1">Address</label></td>
+            <td><textarea name="" id="ad1" cols="40" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="st">State</label></td>
+            <td><input type="text" name="" id="st" class="full-width-input"></td>
+        </tr>
+        <tr>
+            <td><label for="ct">Country</label></td>
+            <td>
+                <select name="" id="ct">
+                    <option value="o1">choose your country</option>
+                    <option value="o2">UK</option>
+                    <option value="o3">USA</option>
+                    <option value="o4">Sweden</option>
+                    <option value="o5">Australia</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lab">Languages Known</label>
+            </td>
+            <td>
+                <p>
+                    <input type="checkbox" id="lab">
+                    Hindi
+                </p>
+                <p><input type="checkbox" id="lab">English</p>
+                <p><input type="checkbox" id="lab">Kannada</p>
+                <p><input type="checkbox" id="lab">Telugu</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="checkbox">Hereby I declare all the 
+            given details are true</td>
+        </tr>
+        <tr>
+            <td colspan="2" id="t5">
+                <p>Log in to</p>
+                <a href="https://learn.codemithra.com/">Ethnus</a>
+                <p>website</p>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <button id="b1">
+        Register
+    </button>
+</body>
+</html>

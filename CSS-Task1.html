@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the shapes */
+      }
+      .rect {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+        height: 65px;
+        width: 100px;
+        border: 2px solid rgba(104, 172, 0, 0.739);
+        border-width: 2.5px;
+      }
+      #rc1 {
+        border-radius: 3px;
+      }
+      #rc2 {
+        border-radius: 7px;
+      }
+      #rc3 {
+        border-radius: 12px;
+      }
+      #rc4 {
+        border-radius: 10px;
+      }
+      #rc5 {
+        border-radius: 1px;
+      }
+      #rc6 {
+        border-radius: 11px;
+      }
+      #rc7 {
+        border-radius: 50%;
+      }
+      #rc8 {
+        border-radius: 2px;
+      }
+      #rc9 {
+        border-top-left-radius: 2px;
+        border-top-right-radius: 30%;
+        border-bottom-left-radius: 30%;
+        border-bottom-right-radius: 7px;
+      }
+      table,
+      tr,
+      td {
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 8px;
+        background-color: rgba(7, 205, 198, 0.614);
+        /* border-collapse: collapse; */
+      }
+    </style>
+  </head>
+  <body>
+    <table style="width: 70%">
+      <tr id="r1">
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr id="r2">
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr id="r3">
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr id="r4">
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <div class="shapes">
+      <div class="rect" id="rc1"></div>
+      <div class="rect" id="rc2"></div>
+      <div class="rect" id="rc3"></div>
+      <br />
+      <br />
+      <div class="rect" id="rc4"></div>
+      <div class="rect" id="rc5"></div>
+      <div class="rect" id="rc6"></div>
+      <br/><br/>
+      <div class="rect" id="rc7"></div>
+      <div class="rect" id="rc8"></div>
+      <div class="rect" id="rc9"></div>
+    </div>
+  </body>
+</html>

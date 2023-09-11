@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .all{
+            display: flex;
+            justify-content: center;
+            margin-bottom: -50px;
+            /* margin-top: -50px; */
+            width: 1000px;
+            height: 800px;
+            background-color: white;
+        }
+        button {
+            width: 277px;
+            margin-top: 35px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        .in {
+            display: flex;
+            justify-content: center;
+            margin-top: -190px;
+            margin-bottom: -30px;
+            padding-top: 25px;
+            padding-bottom: -90px;
+            padding-left: 15px;
+            padding-right: -30px;
+            margin-left: 35px;
+            width: 800px;
+            height: 650px;
+            background-color: rgb(164, 49, 101);
+        }
+
+        .for {
+            display: flex;
+            justify-content: center;
+            width: 650px;
+            height: 400px;
+            margin-left: 50px;
+            margin-top: 180px;
+            margin-right: 50px;
+            padding-top: 30px;
+            margin-bottom: 200px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(126, 15, 15);
+        }
+
+        form {
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        #l {
+            background-color: rgb(179, 172, 172);
+            width: 130px;
+            height: 25px;
+        }
+        label{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        table{
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <div class="in">
+            <div class="for">
+                <form action="">
+                    <table>
+                        <tr>
+                            <td><label for="n">Name</label></td>
+                            <td><input type="text" placeholder="your name" id="n"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="e">Email:</label></td>
+                            <td><input type="email" id="e" placeholder="enter email"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="pw">Password</label></td>
+                            <td><input type="password" id="pw"></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <td><label for="P">Phone Number: </label></td>
+                            <td><input type="text" id="P"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="g">Gender:</label></td>
+                            <td><label for="male">Male:</label><input type="radio">
+                                <label for="female">Female:</label> <input type="radio">
+                                <label for="oth">Others:</label><input type="radio">
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="l">Language</label></td>
+                            <td><select name="option" id="l">
+                                    <option value="">Select language</option>
+                                    <option value="">Hindi</option>
+                                    <option value="">English</option>
+                                    <option value="">French</option>
+                                    <option value="">Italian</option>
+                                </select></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="z">Zip Code:</label></td>
+                            <td><input type="text" id="ZipCode"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="inp">About:</label></td>
+                            <td>
+                                <textarea name="t" id="" cols="20" rows="3"
+                                    placeholder="Tell about yourself"></textarea>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td colspan="2">
+                                <button>
+                                    <center>Register</center>
+                                </button>
+                            </td>
+                        </tr>
+                    
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
